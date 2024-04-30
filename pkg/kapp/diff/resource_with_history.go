@@ -92,8 +92,8 @@ func (r ResourceWithHistory) RecordLastAppliedResource(appliedChange Change) (ct
 			appliedResDiffMD5AnnKey: diff.MinimalMD5(),
 
 			// Following fields useful for debugging:
-			//   debugAppliedResDiffAnnKey:     diff.MinimalString(),
-			//   debugAppliedResDiffFullAnnKey: diff.FullString(),
+			debugAppliedResDiffAnnKey:     diff.MinimalString(),
+			debugAppliedResDiffFullAnnKey: diff.FullString(),
 		},
 	}
 
